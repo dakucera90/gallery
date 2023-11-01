@@ -310,6 +310,7 @@ figcaption h3 {
     margin-bottom: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid rgb(100, 100, 100);
+    letter-spacing: 2px;
 }
 
 .album-title h2 {
