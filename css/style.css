@@ -179,43 +179,6 @@ footer {
     display: flex;
 }
 
-#author-portrait {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    bottom: 40px;
-    left: 46px;
-    margin: 0 auto;
-    padding: 0;
-    display: block;
-    background-image: url("../images/author.jpg");
-    outline: 3px solid rgb(65, 240, 100);
-    border-radius: 50%;
-    opacity: 0;
-    transition: all 0.4s ease-in-out;
-    z-index: 2;
-}
-
-#author-portrait:after {
-    content: '';
-    height: 0;
-    width: 0;
-    position: absolute;
-    bottom: -12px;
-    left: 43%;
-    margin: 0 auto;
-    border-top: 10px rgb(65, 240, 100) solid;
-    border-left: 10px transparent solid;
-    border-right: 10px transparent solid;
-    z-index: 1;
-}
-
-#author:hover + #author-portrait {
-    animation: jump 1s;
-    opacity: 1;
-    transition: all 0.4s ease-in-out;
-}
-
 #bullet {
     margin: 0 10px 0 10px;
 }
@@ -652,10 +615,5 @@ a.text:hover {
     figcaption {
     bottom: -200px;
     }
-
-    #author-portrait {
-        bottom: 100px;
-        left: 243px;
-    }
-
+    
 }
